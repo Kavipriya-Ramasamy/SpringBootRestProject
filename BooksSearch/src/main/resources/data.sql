@@ -1,0 +1,11 @@
+CREATE TABLE BOOKS (
+bookID INT(10) NOT NULL,
+title VARCHAR(200) NOT NULL,
+authors VARCHAR(200) NOT NULL,
+average_rating DECIMAL(13, 2) NOT NULL,
+isbn INT(50) NOT NULL,
+language_code VARCHAR(10) NOT NULL,
+ratings_count INT(10) NOT NULL,
+price INT(10) NOT NULL,
+PRIMARY KEY(bookID)
+);
